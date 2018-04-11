@@ -29,7 +29,7 @@ php composer.phar -vvv update
 ### Example
 
 ```php
-require_once(dirname(__FILE__) . '/../vendor/autoload.php');
+require_once(dirname(__FILE__) . '/vendor/autoload.php');
 
 $infoGlobo = new InfoGlobo\InfoGlobo();
 $infoGlobo->setApiBaseUrl ('https://api-ig.infoglobo.com.br/');
