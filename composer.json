@@ -1,0 +1,20 @@
+{
+    "name": "inicial/infoglobo-php",
+    "description": "Info Globo Integration (PHP)",
+    "keywords": ["info", "globo", "editora", "integration", "php", "composer"],
+    "homepage": "https://github.com/inicialcombr/infoglobo-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inicial Soluções",
+            "email": "contato@inicial.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "InfoGlobo\\" : "src/" }
+    },
+    "require": {
+        "php": ">=5.3",
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
