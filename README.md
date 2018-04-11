@@ -11,7 +11,7 @@ Check if customer is subscriber, subscription profile and segment.
 Run the Composer command to install the latest stable version:
 
 ```bash
-php composer.phar require inicial/infoglobo-php
+php composer.phar -vvv require inicial/infoglobo-php
 ```
 
 After installing, you need to require Composer's autoloader:
@@ -23,7 +23,7 @@ require 'vendor/autoload.php';
 You can then later update using composer:
 
 ```bash
-composer.phar update
+php composer.phar -vvv update
 ```
 
 ### Example
