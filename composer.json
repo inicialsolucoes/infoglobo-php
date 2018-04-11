@@ -1,7 +1,7 @@
 {
     "name": "inicial/infoglobo-php",
     "description": "Info Globo Integration (PHP)",
-    "keywords": ["info", "globo", "editora", "integration", "php", "composer"],
+    "keywords": ["info", "globo", "o globo", "editora", "integration", "php", "composer"],
     "homepage": "https://github.com/inicialcombr/infoglobo-php",
     "license": "MIT",
     "authors": [
