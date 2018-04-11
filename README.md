@@ -20,7 +20,7 @@ After installing, you need to require Composer's autoloader:
 require 'vendor/autoload.php';
 ```
 
-You can then later update Guzzle using composer:
+You can then later update using composer:
 
 ```bash
 composer.phar update
