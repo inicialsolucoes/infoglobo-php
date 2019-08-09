@@ -11,7 +11,7 @@ use InfoGlobo\Model\Customer;
  * InfoGlobo
  * @author Inicial Soluções <contato@inicial.com.br>
  *
- * @link https://github.com/inicialcombr/claroclube-php
+ * @link https://github.com/inicialsolucoes/infoglobo-php
  */
 class InfoGlobo
 {
