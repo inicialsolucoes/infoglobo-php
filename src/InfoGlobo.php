@@ -118,12 +118,21 @@ class InfoGlobo
 	}
 
 	/**
-	 * @return GuzzleHttp\Client
+	 * @return string
 	 */
-	public function getClient()
+	public function getToken()
 	{
-		if ($this->__client) {
-			return $this->__client;
+		if (!is_dir('token')) {
+			mkdir('token', 0777, true);
+		}
+
+		if (file_exists("token/{$this->__apiAuthUser}.json")) {
+
+			$token = json_decode(file_get_contents("token/{$this->__apiAuthUser}.json"));
+
+			if ((time() - filemtime("token/{$this->__apiAuthUser}.json")) < $token->validity) {
+				return $token->code;
+			}
 		}
 
 		$this->__client = new Client([
@@ -139,8 +148,28 @@ class InfoGlobo
 		$responseContents = $responseBody->getContents();
 		$responseData  	  = json_decode($responseContents);
 
-		$accessToken = 'token-acesso';
-		$accessToken = $responseData->$accessToken;
+		$tokenCodeAttr = 'token-acesso';
+		$tokenValidityAttr = 'expiracao';
+
+		$token = new stdClass();
+		$token->code = $responseData->$tokenCodeAttr;
+		$token->validity = $responseData->$tokenValidityAttr;
+
+		file_put_contents("token/{$this->__apiAuthUser}.json", json_encode($token));
+
+		return $token->code;
+	}
+
+	/**
+	 * @return GuzzleHttp\Client
+	 */
+	public function getClient()
+	{
+		if ($this->__client) {
+			return $this->__client;
+		}
+
+		$accessToken = $this->getToken();
 
 		$this->__client = new Client([
 			'base_uri' => $this->__apiBaseUrl,
@@ -165,7 +194,6 @@ class InfoGlobo
 			'query' => [
 				'numerodocumento' => $cpf,
 				'tipodocumento'   => 'CPF',
-				'publicacoes'     => 'OG,GD',
 				'ig-consumidor'   => $this->__apiCustomer,
 				'ig-requestid'    => time()
 			]
