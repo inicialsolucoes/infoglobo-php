@@ -44,4 +44,4 @@ $customer = $infoGlobo->getCustomerByCpf('96356986523');
 
 You can find more info about usage on class source code.
 
-Report any bug or suggest changes using git [issues](https://github.com/inicialcombr/infoglobo-php/issues).
+Report any bug or suggest changes using git [issues](https://github.com/inicialsolucoes/infoglobo-php/issues).
