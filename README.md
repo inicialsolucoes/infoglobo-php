@@ -1,5 +1,9 @@
 # Info Globo Integration (PHP)
 
+[![Packagist](https://img.shields.io/packagist/v/inicial/infoglobo-php.svg?style=flat-square)](https://packagist.org/packages/inicial/infoglobo-php)
+
+### Description
+
 Check if customer is subscriber, subscription profile and segment.
 
 ### Requirements
