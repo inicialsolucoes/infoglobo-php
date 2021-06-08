@@ -1,6 +1,7 @@
 # Info Globo Integration (PHP)
 
 [![Packagist](https://img.shields.io/packagist/v/inicial/infoglobo-php.svg?style=flat-square)](https://packagist.org/packages/inicial/infoglobo-php)
+[![License](https://img.shields.io/badge/license-Infoglobo%20PHP-blue.svg?style=flat-square)](https://github.com/inicialsolucoes/infoglobo-php/blob/master/LICENSE)
 
 ### Description
 
