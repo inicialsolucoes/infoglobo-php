@@ -1,7 +1,6 @@
 # Info Globo Integration (PHP)
 
-[![Packagist](https://img.shields.io/packagist/v/inicial/infoglobo-php.svg?style=flat-square)](https://packagist.org/packages/inicial/infoglobo-php)
-[![License](https://img.shields.io/badge/license-Infoglobo%20PHP-blue.svg?style=flat-square)](https://github.com/inicialsolucoes/infoglobo-php/blob/master/LICENSE)
+[![Latest Stable Version](http://poser.pugx.org/inicial/infoglobo-php/v)](https://packagist.org/packages/inicial/infoglobo-php) [![Total Downloads](http://poser.pugx.org/inicial/infoglobo-php/downloads)](https://packagist.org/packages/inicial/infoglobo-php) [![Latest Unstable Version](http://poser.pugx.org/inicial/infoglobo-php/v/unstable)](https://packagist.org/packages/inicial/infoglobo-php) [![License](http://poser.pugx.org/inicial/infoglobo-php/license)](https://packagist.org/packages/inicial/infoglobo-php) [![PHP Version Require](http://poser.pugx.org/inicial/infoglobo-php/require/php)](https://packagist.org/packages/inicial/infoglobo-php)
 
 ### Description
 
