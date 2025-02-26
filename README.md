@@ -1,6 +1,6 @@
 # Info Globo Integration (PHP)
 
-[![Latest Stable Version](http://poser.pugx.org/inicial/infoglobo-php/v)](https://packagist.org/packages/inicial/infoglobo-php) [![Total Downloads](http://poser.pugx.org/inicial/infoglobo-php/downloads)](https://packagist.org/packages/inicial/infoglobo-php) [![Latest Unstable Version](http://poser.pugx.org/inicial/infoglobo-php/v/unstable)](https://packagist.org/packages/inicial/infoglobo-php) [![License](http://poser.pugx.org/inicial/infoglobo-php/license)](https://packagist.org/packages/inicial/infoglobo-php) [![PHP Version Require](http://poser.pugx.org/inicial/infoglobo-php/require/php)](https://packagist.org/packages/inicial/infoglobo-php)
+[![Latest Stable Version](https://poser.pugx.org/inicial/infoglobo-php/v)](https://packagist.org/packages/inicial/infoglobo-php) [![Total Downloads](https://poser.pugx.org/inicial/infoglobo-php/downloads)](https://packagist.org/packages/inicial/infoglobo-php) [![Latest Unstable Version](https://poser.pugx.org/inicial/infoglobo-php/v/unstable)](https://packagist.org/packages/inicial/infoglobo-php) [![License](https://poser.pugx.org/inicial/infoglobo-php/license)](https://packagist.org/packages/inicial/infoglobo-php) [![PHP Version Require](https://poser.pugx.org/inicial/infoglobo-php/require/php)](https://packagist.org/packages/inicial/infoglobo-php)
 
 ### Description
 
